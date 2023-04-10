@@ -47,10 +47,10 @@ class Pokemon():
                 lastAttacker = self.name
 
         if(self.health > 0):
-            print(f"Výtězem je {self.name}")
+            print(f"Vítězem je {self.name}")
             return True
         else:
-            print(f"Výtězem je {opponent.name}")
+            print(f"Vítězem je {opponent.name}")
             return False
 
 
@@ -92,9 +92,9 @@ class Trainer():
                     oponentVictories += 1
 
         if myVictories > oponentVictories:
-            print(f"Výtězem duelu je {self.name}")
+            print(f"Vítězem duelu je {self.name}")
         elif myVictories < oponentVictories:
-            print(f"Výtězem duelu je {opponent.name}")
+            print(f"Vítězem duelu je {opponent.name}")
         else:
             print(f"Duel skončil nerozhodně")
 
